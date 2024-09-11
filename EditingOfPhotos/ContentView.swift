@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var authViewModel = AuthViewModel()
+    @State private var authMode: AuthMode = .login
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if authMode == .login {
+                LoginView(authMode: $authMode) // Передаем состояние для смены экрана
+            } else {
+                RegisterView(authMode: $authMode) // Передаем состояние для смены экрана
+            }
         }
         .padding()
     }

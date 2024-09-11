@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAJ-d7nvemmQlvfK050sj7GDikNpilsmhA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>463281206841</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.forios.EditingOfPhotos</string>
+	<key>PROJECT_ID</key>
+	<string>editingofphotos-b7847</string>
+	<key>STORAGE_BUCKET</key>
+	<string>editingofphotos-b7847.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:463281206841:ios:6179daa1a82dd9fd363fe8</string>
+</dict>
+</plist>
